@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2022-09-15T10:47:04.058">
+<file name="C:\Users\AASing\Downloads\spring-boot-jwt-jpa-master\spring-boot-jwt-jpa-master\src\main\java\com\shop\config\JwtTokenUtil.java">
+<violation beginline="53" endline="53" begincolumn="47" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.shop.config" class="JwtTokenUtil" method="ignoreTokenExpiration" variable="token" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'token'.
+</violation>
+<violation beginline="70" endline="70" begincolumn="11" endcolumn="64" rule="UselessParentheses" ruleset="Code Style" package="com.shop.config" class="JwtTokenUtil" method="canTokenBeRefreshed" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="75" endline="75" begincolumn="11" endcolumn="78" rule="UselessParentheses" ruleset="Code Style" package="com.shop.config" class="JwtTokenUtil" method="validateToken" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\AASing\Downloads\spring-boot-jwt-jpa-master\spring-boot-jwt-jpa-master\src\main\java\com\shop\controller\ProductController.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Best Practices" package="com.shop.controller" class="ProductController" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.Collection'
+</violation>
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="29" rule="UnusedImports" ruleset="Best Practices" package="com.shop.controller" class="ProductController" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.Collections'
+</violation>
+<violation beginline="19" endline="19" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Best Practices" package="com.shop.controller" class="ProductController" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'com.shop.model.Customer'
+</violation>
+</file>
+<file name="C:\Users\AASing\Downloads\spring-boot-jwt-jpa-master\spring-boot-jwt-jpa-master\src\main\java\com\shop\model\UserDao.java">
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="19" rule="UnusedPrivateField" ruleset="Best Practices" package="com.shop.model" class="UserDao" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'id'.
+</violation>
+</file>
+</pmd>
